@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorator="LayoutPadraoEnderecos">
+<head>
+	<meta charset="utf8">
+	<title>Lista de Endereços</title>
+</head>
+<section layout:fragment="conteudo">
+
+	<div class="container-fluid">
+		<div class="card">
+			<div class="card-header clearfix">
+				<h5 class="pull-left">Lista de Endereços</h5>
+				<a class="pull-right" href="/enderecos/novo">Cadastrar Novo Endereço</a>
+			</div>
+
+			<div class="card-block">
+				<table class="table table-bordered table-striped">
+					<thead>
+						<tr>
+							<th>Logradouro</th>
+							<th class="text-center">Bairro</th>
+							<th class="text-center">Cep</th>
+							<th class="text-center">Complemento</th>
+							<th class="text-center">Estado</th>
+							<th class="text-center">Cidade</th>
+							<th></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="endereco : ${enderecos}">
+							<td th:text="${endereco.logradouro}"></td>
+							<td class="text-center" th:text="${endereco.bairro}"></td>
+							<td class="text-center" th:text="${endereco.cep}"></td>
+							<td class="text-center" th:text="${endereco.complemento}"></td>
+							<td class="text-center" th:text="${endereco.estado.sigla}"></td>
+							<td class="text-center" th:text="${endereco.cidade.nomedacidade}"></td>
+							<td class="text-center">
+								<a th:href="@{/enderecos/{id}(id=${endereco.id})}">
+									<i class="fa fa-pencil" style="padding-right: 7px"></i>
+								</a>
+								<a data-toggle="modal" data-target="#confirmacaoExclusaoModal" 
+										th:attr="data-id=${endereco.id},data-nome=${endereco.logradouro}" class="fa fa-trash"></a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+		</div>
+
+		<div class="modal fade" id="confirmacaoExclusaoModal" tabindex="-1">
+			<div class="modal-dialog">
+				<form th:attr="data-url-base='/enderecos'" method="POST">
+				
+					<input type="hidden" name="_method" value="DELETE">
+					
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5>Tem certeza?</h5>
+						</div>
+						<div class="modal-body">
+							<span>Tem certeza que quer excluir o funcionário?</span>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-link" data-dismiss="modal">Cancelar</button>
+							<button type="submit" class="btn btn-primary">Excluir</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorator="LayoutPadrao">
+<head>
+	<meta charset="utf8">
+	<title>Lista de Estados</title>
+</head>
+
+<section layout:fragment="conteudo">
+
+	<div class="container-fluid">
+		<div class="card">
+			<div class="card-header clearfix">
+				<h5 class="pull-left">Lista de Estados</h5>
+			</div>
+
+			<div class="card-block">
+				<table class="table table-bordered table-striped">
+					<thead>
+						<tr>
+							<th>Estado</th>
+							<th class="text-center">Sigla</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="estado : ${estados}">
+							<td th:text="${estado.estado}"></td>
+							<td class="text-center" th:text="${estado.sigla}"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+</html>
