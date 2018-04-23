@@ -1,4 +1,4 @@
-------------CMD´s DML----------
+------------CMDÂ´s DML----------
 
 
 PESSOAS
@@ -44,9 +44,9 @@ insert into estados(sigla, nome) values ('MT','Mato Grosso');
 
 CIDADES
 
-insert into cidades(nome, estado_sigla) values ('Vitíoria da Conquista','BA');
+insert into cidades(nome, estado_sigla) values ('VitÃ­oria da Conquista','BA');
 
-insert into cidades(nome, estado_sigla) values ('Dianópolis','TO');
+insert into cidades(nome, estado_sigla) values ('DianÃ³polis','TO');
 
 insert into cidades(nome, estado_sigla) values ('Belo Horizonte','MG');
 
@@ -90,13 +90,13 @@ insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observaca
 ('Recebimento de Contas','2018-01-20','2018-01-20','4000','Janeiro referente a 2017','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Pagamento de Funcionários','2018-01-05','2018-01-10','150000','Referente ao mês de Março','DESPESA',1,1);
+('Pagamento de FuncionÃ¡rios','2018-01-05','2018-01-10','150000','Referente ao mÃªs de MarÃ§o','DESPESA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
 ('Vendas','2018-01-25','2018-01-28','1098667','Vendas de Sementes','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Aluguel','2018-01-20','2018-01-15','450000','Aluguel do mês de Janeiro','DESPESA',1,1);
+('Aluguel','2018-01-20','2018-01-15','450000','Aluguel do mÃªs de Janeiro','DESPESA',1,1);
 
 
 
@@ -107,13 +107,13 @@ insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observaca
 ('Recebimento de Contas','2018-02-20','2018-02-20','573840','Janeiro referente a 2017','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Pagamento de Funcionários','2018-02-05','2018-02-10','1598500','Referente ao mês de Março','DESPESA',1,1);
+('Pagamento de FuncionÃ¡rios','2018-02-05','2018-02-10','1598500','Referente ao mÃªs de MarÃ§o','DESPESA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
 ('Vendas','2018-02-25','2018-02-28','1098125','Vendas de Sementes','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Aluguel','2018-02-20','2018-02-15','450000','Aluguel do mês de Janeiro','DESPESA',1,1);
+('Aluguel','2018-02-20','2018-02-15','450000','Aluguel do mÃªs de Janeiro','DESPESA',1,1);
 
 
 
@@ -125,13 +125,13 @@ insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observaca
 ('Recebimento de Contas','2018-03-20','2018-03-20','1896488','Janeiro referente a 2017','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Pagamento de Funcionários','2018-03-05','2018-03-10','','Referente ao mês de Março','DESPESA',1,1);
+('Pagamento de FuncionÃ¡rios','2018-03-05','2018-03-10','','Referente ao mÃªs de MarÃ§o','DESPESA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
 ('Vendas','2018-03-25','2018-03-28','50098125','Vendas de Sementes','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Aluguel','2018-03-20','2018-03-15','450000','Aluguel do mês de Janeiro','DESPESA',1,1);
+('Aluguel','2018-03-20','2018-03-15','450000','Aluguel do mÃªs de Janeiro','DESPESA',1,1);
 
 
 
@@ -140,16 +140,16 @@ insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observaca
 ('Compra Moto','2018-04-10','2018-04-10','10000','Moto Broz 160 Completa','DESPESA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('REcebimento 13º','2018-04-20','2018-04-20','500000','13º referente a 2017','RECEITA',1,1);
+('REcebimento 13Âº','2018-04-20','2018-04-20','500000','13Âº referente a 2017','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Pagamento de Funcionários','2018-04-05','2018-05-10','100000','Referente ao mês de Março','DESPESA',1,1);
+('Pagamento de FuncionÃ¡rios','2018-04-05','2018-05-10','100000','Referente ao mÃªs de MarÃ§o','DESPESA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
 ('Vendas','2018-04-25','2018-04-28','1098667','Vendas de Sementes','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Vendas','2018-04-20','2018-04-15','300000','Aluguel do mês de Abril','DESPESA',1,1);
+('Vendas','2018-04-20','2018-04-15','300000','Aluguel do mÃªs de Abril','DESPESA',1,1);
 
 
 
@@ -161,13 +161,13 @@ insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observaca
 ('Recebimento de Contas','2018-05-20','2018-05-20','967543','Janeiro referente a 2017','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Pagamento de Funcionários','2018-05-05','2018-05-10','9741849','Referente ao mês de Março','DESPESA',1,1);
+('Pagamento de FuncionÃ¡rios','2018-05-05','2018-05-10','9741849','Referente ao mÃªs de MarÃ§o','DESPESA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
 ('Vendas','2018-05-25','2018-05-28','59598125','Vendas de Sementes','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Aluguel','2018-05-20','2018-05-15','450000','Aluguel do mês de Janeiro','DESPESA',1,1);
+('Aluguel','2018-05-20','2018-05-15','450000','Aluguel do mÃªs de Janeiro','DESPESA',1,1);
 
 
 
@@ -178,13 +178,13 @@ insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observaca
 ('Recebimento de Contas','2018-06-20','2018-06-20','9764543','Janeiro referente a 2017','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Pagamento de Funcionários','2018-06-05','2018-06-10','9685649','Referente ao mês de Março','DESPESA',1,1);
+('Pagamento de FuncionÃ¡rios','2018-06-05','2018-06-10','9685649','Referente ao mÃªs de MarÃ§o','DESPESA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
 ('Vendas','2018-06-25','2018-06-28','5954752','Vendas de Sementes','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Aluguel','2018-06-20','2018-06-15','450000','Aluguel do mês de Janeiro','DESPESA',1,1);
+('Aluguel','2018-06-20','2018-06-15','450000','Aluguel do mÃªs de Janeiro','DESPESA',1,1);
 
 
 
@@ -196,13 +196,13 @@ insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observaca
 ('Recebimento de Contas','2018-07-20','2018-07-20','97687543','Janeiro referente a 2017','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Pagamento de Funcionários','2018-07-05','2018-07-10','96269649','Referente ao mês de Março','DESPESA',1,1);
+('Pagamento de FuncionÃ¡rios','2018-07-05','2018-07-10','96269649','Referente ao mÃªs de MarÃ§o','DESPESA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
 ('Vendas','2018-07-25','2018-07-28','5982752','Vendas de Sementes','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Aluguel','2018-07-20','2018-07-15','450000','Aluguel do mês de Janeiro','DESPESA',1,1);
+('Aluguel','2018-07-20','2018-07-15','450000','Aluguel do mÃªs de Janeiro','DESPESA',1,1);
 
 
 
@@ -214,13 +214,13 @@ insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observaca
 ('Recebimento de Contas','2018-08-20','2018-08-20','97663543','Janeiro referente a 2017','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Pagamento de Funcionários','2018-08-05','2018-08-10','9685649','Referente ao mês de Março','DESPESA',1,1);
+('Pagamento de FuncionÃ¡rios','2018-08-05','2018-08-10','9685649','Referente ao mÃªs de MarÃ§o','DESPESA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
 ('Vendas','2018-08-25','2018-08-28','5954752','Vendas de Sementes','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Aluguel','2018-08-20','2018-08-15','450000','Aluguel do mês de Janeiro','DESPESA',1,1);
+('Aluguel','2018-08-20','2018-08-15','450000','Aluguel do mÃªs de Janeiro','DESPESA',1,1);
 
 
 
@@ -232,13 +232,13 @@ insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observaca
 ('Recebimento de Contas','2018-09-20','2018-09-20','9764543','Janeiro referente a 2017','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Pagamento de Funcionários','2018-09-05','2018-09-10','9685649','Referente ao mês de Março','DESPESA',1,1);
+('Pagamento de FuncionÃ¡rios','2018-09-05','2018-09-10','9685649','Referente ao mÃªs de MarÃ§o','DESPESA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
 ('Vendas','2018-09-25','2018-09-28','5954752','Vendas de Sementes','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Aluguel','2018-09-20','2018-09-15','450000','Aluguel do mês de Janeiro','DESPESA',1,1);
+('Aluguel','2018-09-20','2018-09-15','450000','Aluguel do mÃªs de Janeiro','DESPESA',1,1);
 
 
 
@@ -250,13 +250,13 @@ insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observaca
 ('Recebimento de Contas','2018-10-20','2018-10-20','9764543','Janeiro referente a 2017','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Pagamento de Funcionários','2018-10-05','2018-10-10','96858649','Referente ao mês de Março','DESPESA',1,1);
+('Pagamento de FuncionÃ¡rios','2018-10-05','2018-10-10','96858649','Referente ao mÃªs de MarÃ§o','DESPESA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
 ('Vendas','2018-10-25','2018-10-28','59567752','Vendas de Sementes','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Aluguel','2018-10-20','2018-10-15','450000','Aluguel do mês de Janeiro','DESPESA',1,1);
+('Aluguel','2018-10-20','2018-10-15','450000','Aluguel do mÃªs de Janeiro','DESPESA',1,1);
 
 
 
@@ -267,13 +267,13 @@ insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observaca
 ('Recebimento de Contas','2018-11-20','2018-11-20','97567543','Janeiro referente a 2017','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Pagamento de Funcionários','2018-11-05','2018-11-10','955649','Referente ao mês de Março','DESPESA',1,1);
+('Pagamento de FuncionÃ¡rios','2018-11-05','2018-11-10','955649','Referente ao mÃªs de MarÃ§o','DESPESA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
 ('Vendas','2018-11-25','2018-11-28','5944752','Vendas de Sementes','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Aluguel','2018-11-20','2018-11-15','450000','Aluguel do mês de Janeiro','DESPESA',1,1);
+('Aluguel','2018-11-20','2018-11-15','450000','Aluguel do mÃªs de Janeiro','DESPESA',1,1);
 
 
 
@@ -284,13 +284,13 @@ insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observaca
 ('Recebimento de Contas','2018-12-20','2018-12-20','9764543','Janeiro referente a 2017','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Pagamento de Funcionários','2018-12-05','2018-12-10','9688649','Referente ao mês de Março','DESPESA',1,1);
+('Pagamento de FuncionÃ¡rios','2018-12-05','2018-12-10','9688649','Referente ao mÃªs de MarÃ§o','DESPESA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
 ('Vendas','2018-12-25','2018-12-28','5956752','Vendas de Sementes','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Aluguel','2018-12-20','2018-12-15','450000','Aluguel do mês de Janeiro','DESPESA',1,1);
+('Aluguel','2018-12-20','2018-12-15','450000','Aluguel do mÃªs de Janeiro','DESPESA',1,1);
 
 
 
@@ -301,13 +301,76 @@ insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observaca
 ('Recebimento de Contas','2018-11-20','2018-11-20','9764543','Janeiro referente a 2017','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Pagamento de Funcionários','2018-07-05','2018-07-10','96234649','Referente ao mês de Março','DESPESA',1,1);
+('Pagamento de FuncionÃ¡rios','2018-07-05','2018-07-10','96234649','Referente ao mÃªs de MarÃ§o','DESPESA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
 ('Vendas','2018-04-25','2018-04-28','5978752','Vendas de Sementes','RECEITA',1,1);
 
 insert into lancamentos(descricao, dt_vencimento, dt_pagamento, valor, observacao, tipo, pessoa_id, categoria_id) values 
-('Aluguel','2018-01-20','2018-01-15','450000','Aluguel do mês de Janeiro','DESPESA',1,1);
+('Aluguel','2018-01-20','2018-01-15','450000','Aluguel do mÃªs de Janeiro','DESPESA',1,1);
+
+
+------------- AtualizaÃ§Ã£o --------------------------
+
+update pessoas set cpf='111.111.111-11' where id=1;
+
+update pessoas set cpf='222.222.222-22' where id=2;
+
+update pessoas set cpf='333.333.333-33' where id=3;
+
+update pessoas set cpf='444.444.444-44' where id=4;
+
+update pessoas set cpf='555.555.555-55' where id=5;
+
+update contatos set pessoa_cpf='111.111.111-11' where id=1;
+
+update contatos set pessoa_cpf='222.222.222-22' where id=2;
+
+update contatos set pessoa_cpf='333.333.333-33' where id=3;
+
+update contatos set pessoa_cpf='444.444.444-44' where id=4;
+
+update contatos set pessoa_cpf='555.555.555-55' where id=5;
+
+update enderecos set pessoa_cpf='111.111.111-11' where pessoa_id=1;
+
+update enderecos set pessoa_cpf='222.222.222-22' where pessoa_id=2;
+
+update enderecos set pessoa_cpf='333.333.333-33' where pessoa_id=3;
+
+update enderecos set pessoa_cpf='444.444.444-44' where pessoa_id=4;
+
+update enderecos set pessoa_cpf='555.555.555-55' where pessoa_id=5;
+
+update lancamentos set pessoa_cpf='111.111.111-11' where pessoa_id=1;
+
+----------- Realizando buscas do BD----------------
+
+select sum(I.valor) as ' Soma das DESPESAS desse MÃªs' from lancamentos I inner join pessoas p on I.pessoa_cpf where pessoa_cpf='111.111.111-11' and I.dt_vencimento between '2018-01-01' and '2018-01-30 tipo='DESPESA';
+
+select avg(I.valor) as 'DESPESAS mÃ©dia desse MÃªs' from lancamentos I inner join pessoas p on I.pessoa_cpf where pessoa_cpf='111.111.111-11' and I.dt_vencimento between '2018-01-01' and '2018-01-30' and tipo='DESPESA';
+
+select round(avg(I.valor),2) as 'DESPESAS desse MÃªs' from lancamentos I inner join pessoas p on I.pessoa_cpf where pessoa_cpf='111.111.111-11' and I.dt_vencimento between '2018-01-01' and '2018-01-30' and tipo='DESPESA';
+
+select p.nome, I.dt_vencimento, I.descricao, I.valor, I.tipo from lancamentos I inner join pessoas p on I.pessoa_cpf=p.id where p.id=1 and I.dt_vencimento between '2018-01-01' and '2018-01-30' and tipo='DESPESA';
+
+SELECT descricao, dt_vencimento, valor FROM lancamentos WHERE pessoa_cpf LIKE '222%';
+
+SELECT descricao as 'DescriÃ§Ã£o', dt_vencimento as 'DTVencimento', valor as 'Valor (R$)' FROM lancamentos WHERE pessoa_cpf='111.111.111-11';
+
+
+
+
+
+
+
+
+
+
+
+
+update lancamentos set pessoa_cpf='111.111.111-11' where pessoa_id=1;
+
 
 
 
