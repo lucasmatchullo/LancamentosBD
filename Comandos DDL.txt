@@ -1,4 +1,4 @@
-----CMD�s DDL ------------
+----CMD´s DDL ------------
 
 create table estados(sigla varchar(2) primary key not null, nome varchar (255) not null unique)
 egine=InnoDB default charset=utf8;
@@ -32,4 +32,23 @@ engine=InnoDB charset=utf8;
 alter table lancamentos modify pessoa_id bigint not null;
 
 alter table lancamentos modify categoria_id bigint not null;
+
+----------------Atualização-------------------------
+
+alter table contatos drop foreign key contatos_ibfk_1;
+alter table lancamentos drop foreign key fk_pessoa_id;
+alter table enderecos drop foreign key enderecos_ibfk_1;
+alter table pessoas modify id bigint not null;
+alter table pessoas add cpf varchar(14) not null unique;
+alter table contatos add pessoa_cpf varchar(14);
+alter table pessoas modify column cpf varchar(14) not null ;
+alter table pessoas add primary key (cpf);
+alter table contatos add constraint fk_pessoa_cpf foreign key (pessoa_cpf) references pessoas (cpf)on delete cascade on update cascade;
+alter table enderecos modify pessoa_cpf varchar(14) not null;
+alter table enderecos add primary key (pessoa_cpf);
+alter table enderecos add constraint fk_pessoa_cpf foreign key (pessoa_cpf) references pessoas (cpf) on delete cascade on update cascade;
+alter table lancamentos add pessoa_cpf varchar(14) not null;
+alter table lancamentos add constraint fk_p_cpf foreign key (pessoa_cpf) references pessoas (cpf)on delete cascade on update cascade;
+
+
 
